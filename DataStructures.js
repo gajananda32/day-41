@@ -2,6 +2,8 @@ function getRandomInteger()
 { 
   return Math.floor(Math.random()*(999-100+1)+100);
 } 
+
+
 function findSecondLargestElem(arr)
 { 
   let first = -1 , second = -1; 
@@ -40,6 +42,7 @@ for(let i=0;i<=arr.length-1;i++)
 { 
   arr[i]=getRandomInteger();
 }
-console.log(arr)findSecondLargestElem(arr);
+console.log(arr)
+findSecondLargestElem(arr);
 findSecondSmallgestElem(arr)
 
